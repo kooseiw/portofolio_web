@@ -139,7 +139,7 @@ export const HeroSection = () => {
             </h1>
             <p className="mt-4 text-center text-white/60 md:text-lg">
               I am a passionate Frontend Developer currently pursuing a
-              Bachelor's degree
+              Bachelor&apos;s degree
             </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
@@ -154,7 +154,7 @@ export const HeroSection = () => {
               className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl cursor-pointer hover:opacity-90 relative z-10 pointer-events-auto"
             >
               <span>👋</span>
-              <span className="font-semibold">Let's Connect</span>
+              <span className="font-semibold">Let&apos;s Connect</span>
             </a>
           </div>
         </div>
