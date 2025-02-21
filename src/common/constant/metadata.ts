@@ -1,0 +1,41 @@
+export const METADATA = {
+    title: "Koosei Wibawa | Portfolio",
+    authors: {
+        name: "Koosei Wibawa",
+        url: "https://kooseiw.vercel.app/",
+    },
+    creator: "Koosei Wibawa",
+    description: "Koosei Wibawa is a front-end developer with a passion for creating beautiful and functional web experiences.",
+    keywords: [
+        "Koosei Wibawa",
+        "Koosei",
+        "Koosei Wibawa Portfolio",
+        "Frontend Developer",
+        "Web Developer",
+        "React Developer",
+        "Next.js Developer",
+        "TypeScript",
+        "JavaScript",
+        "Portfolio",
+        "Web Development",
+        "Software Engineer",
+        "UI/UX",
+        "Web Design"
+    ],
+    openGraph: {
+        type: "website",
+        locale: "id-ID",
+        title: "Koosei Wibawa | Portfolio",
+        siteName: "Koosei Wibawa | Portfolio",
+        url: "https://kooseiw.vercel.app/",
+        description: "Koosei Wibawa is a front-end developer with a passion for creating beautiful and functional web experiences.",
+        images: {
+            url: "https://kooseiw.vercel.app/og-picture.png",
+            width: 1200,
+            height: 630,
+            alt: "Koosei Wibawa | Portfolio",
+        },
+    },
+    siteUrl: "https://kooseiw.vercel.app/",
+    manifest: "https://kooseiw.vercel.app/site.webmanifest",
+};
