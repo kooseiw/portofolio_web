@@ -5,7 +5,6 @@ import grainImage from "@/assets/images/grain.jpg";
 import SparkleIcon from "@/assets/icons/sparkle.svg";
 import StarIcon from "@/assets/icons/star.svg";
 import { HeroOrbit } from "@/components/HeroOrbit";
-import Link from "next/link";
 
 export const HeroSection = () => {
   return (
@@ -138,8 +137,8 @@ export const HeroSection = () => {
               Building Exceptional User Experiences
             </h1>
             <p className="mt-4 text-center text-white/60 md:text-lg">
-              I am a passionate Frontend Developer currently pursuing a
-              Bachelor&apos;s degree
+              Hi I&apos;m Koosei Wibawa, a passionate Frontend Developer
+              currently pursuing a Bachelor&apos;s degree
             </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">

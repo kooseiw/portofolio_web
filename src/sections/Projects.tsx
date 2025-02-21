@@ -2,6 +2,7 @@ import nomadsWebsite from "@/assets/images/nomads.png";
 import crescendoWebsite from "@/assets/images/crescendo.png";
 import lgmWebsite from "@/assets/images/lgm.png";
 import sashaWebsite from "@/assets/images/sasha-supra.png";
+import eshopWebsite from "@/assets/images/eshop.png";
 import Image from "next/image";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import { SectionHeader } from "@/components/SectionHeader";
@@ -43,6 +44,15 @@ const portfolioProjects = [
       "This is a Next.js website project for a DJ named Sasha Supra, featuring a modern and stylish design with a focus on showcasing her music, tour dates, and social media presence. The project utilizes TypeScript, Tailwind CSS for styling, and various React components to create an interactive user experience.",
     link: "https://sashasupra.com/",
     image: sashaWebsite,
+  },
+  {
+    company: "Koosei Portfolio",
+    year: "2025",
+    title: "e-Commerce Website",
+    description:
+      "This is an e-commerce website built with Next.js, TypeScript, and Sanity CMS. The project implements a modern shopping experience with features like product browsing, category filtering, search functionality, shopping cart management (using Zustand for state management), and a sale promotion system.",
+    link: "https://ecommerce-website-teal-sigma.vercel.app/",
+    image: eshopWebsite,
   },
 ];
 
