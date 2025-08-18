@@ -147,7 +147,7 @@ export const HeroSection = () => {
               <ArrowDown className="size-4" />
             </button>
             <a
-              href="https://www.linkedin.com/in/gede-koosei-wibawa-019526279/"
+              href="https://www.linkedin.com/in/kooseiw"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl cursor-pointer hover:opacity-90 relative z-10 pointer-events-auto"
