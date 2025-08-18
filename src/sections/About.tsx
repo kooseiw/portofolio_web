@@ -2,7 +2,7 @@
 
 import { SectionHeader } from "../components/SectionHeader";
 import { Card } from "@/components/Card";
-import bookImage from "@/assets/images/book-cover.png";
+import kooseiImage from "@/assets/images/koosei.png";
 import Image from "next/image";
 import ReactIcon from "@/assets/icons/react.svg";
 import NextjsIcon from "@/assets/icons/nextjs.svg";
@@ -15,7 +15,7 @@ import mapImage from "@/assets/images/maps.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
-import { motion, useMotionValue, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { useRef } from "react";
 
 const toolboxItems = [
@@ -102,17 +102,20 @@ export const AboutSection = () => {
         <SectionHeader
           title="About Me"
           eyebrow="Get to know me"
-          description="With hands-on experience gained during my internship at Primuse, I have worked on various website projects, honing my skills in building responsive and interactive user interfaces."
+          description=" A recent graduate in Informatics from Atma Jaya University Yogyakarta, with a strong interest in becoming a frontend developer 
+specializing in both web and mobile application development. Experienced in designing simple web and mobile applications, and 
+equipped with solid leadership and teamwork skills gained through active involvement in campus organizations and committees. 
+Currently awaiting the official graduation ceremony."
         />
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
-              <CardHeader
-                title="My Reads"
-                description="Explore the books I've read and my thoughts on them."
-              />
-              <div className="w-40 mx-auto mt-2 md:mt-0">
-                <Image src={bookImage} alt="Book Cover" />
+              <div className="w-full h-full flex items-center justify-center">
+                <Image
+                  src={kooseiImage}
+                  alt="Koosei"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </Card>
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
@@ -144,7 +147,7 @@ export const AboutSection = () => {
                 {hobbies.map((hobby) => (
                   <motion.div
                     key={hobby.title}
-                    className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute"
+                    className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-cyan-400 to-sky-500 rounded-full py-1.5 absolute"
                     style={{
                       left: hobby.left,
                       top: hobby.top,
@@ -167,8 +170,8 @@ export const AboutSection = () => {
                 className="h-full w-full object-cover object-left-top"
               />
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]"></div>
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-10"></div>
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 to-sky-500 -z-20 animate-ping [animation-duration:2s]"></div>
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 to-sky-500 -z-10"></div>
                 <Image
                   src={smileMemoji}
                   alt="Smile Memoji"

@@ -27,7 +27,7 @@ export const HeroSection = () => {
             shouldSpin
             spinDuration="3s"
           >
-            <SparkleIcon className="size-8 text-emerald-300/20" />
+            <SparkleIcon className="size-8 text-cyan-400/20" />
           </HeroOrbit>
           <HeroOrbit
             size={440}
@@ -37,7 +37,7 @@ export const HeroSection = () => {
             shouldSpin
             spinDuration="3s"
           >
-            <SparkleIcon className="size-5 text-emerald-300/20" />
+            <SparkleIcon className="size-5 text-cyan-400/20" />
           </HeroOrbit>
           <HeroOrbit
             size={520}
@@ -47,7 +47,7 @@ export const HeroSection = () => {
             shouldSpin
             spinDuration="3s"
           >
-            <div className="size-2 rounded-full bg-emerald-300/20" />
+            <div className="size-2 rounded-full bg-cyan-400/20" />
           </HeroOrbit>
           <HeroOrbit
             size={530}
@@ -57,7 +57,7 @@ export const HeroSection = () => {
             shouldSpin
             spinDuration="3s"
           >
-            <SparkleIcon className="size-10 text-emerald-300/20" />
+            <SparkleIcon className="size-10 text-cyan-400/20" />
           </HeroOrbit>
           <HeroOrbit
             size={550}
@@ -67,7 +67,7 @@ export const HeroSection = () => {
             shouldSpin
             spinDuration="6s"
           >
-            <StarIcon className="size-12 text-emerald-300" />
+            <StarIcon className="size-12 text-cyan-400" />
           </HeroOrbit>
           <HeroOrbit
             size={590}
@@ -77,7 +77,7 @@ export const HeroSection = () => {
             shouldSpin
             spinDuration="6s"
           >
-            <StarIcon className="size-8 text-emerald-300" />
+            <StarIcon className="size-8 text-cyan-400" />
           </HeroOrbit>
           <HeroOrbit
             size={650}
@@ -87,7 +87,7 @@ export const HeroSection = () => {
             shouldSpin
             spinDuration="3s"
           >
-            <div className="size-2 rounded-full bg-emerald-300/20" />
+            <div className="size-2 rounded-full bg-cyan-400/20" />
           </HeroOrbit>
           <HeroOrbit
             size={710}
@@ -97,7 +97,7 @@ export const HeroSection = () => {
             shouldSpin
             spinDuration="3s"
           >
-            <SparkleIcon className="size-14 text-emerald-300/20" />
+            <SparkleIcon className="size-14 text-cyan-400/20" />
           </HeroOrbit>
           <HeroOrbit
             size={720}
@@ -107,7 +107,7 @@ export const HeroSection = () => {
             shouldSpin
             spinDuration="3s"
           >
-            <div className="size-3 rounded-full bg-emerald-300/20" />
+            <div className="size-3 rounded-full bg-cyan-400/20" />
           </HeroOrbit>
           <HeroOrbit
             size={800}
@@ -117,7 +117,7 @@ export const HeroSection = () => {
             shouldSpin
             spinDuration="10s"
           >
-            <StarIcon className="size-28 text-emerald-300" />
+            <StarIcon className="size-28 text-cyan-400" />
           </HeroOrbit>
         </div>
         <div className="container">
@@ -136,9 +136,9 @@ export const HeroSection = () => {
             <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
               Building Exceptional User Experiences
             </h1>
-            <p className="mt-4 text-center text-white/60 md:text-lg">
-              Hi I&apos;m Koosei Wibawa, a passionate Frontend Developer
-              currently pursuing a Bachelor&apos;s degree
+            <p className="mt-4 text-center text-white/60 md:text-[17px]">
+              Hi I&apos;m Koosei Wibawa, a passionate Frontend Developer who has
+              completed my Bachelor&apos;s degree but not yet graduated
             </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
