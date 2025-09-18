@@ -138,7 +138,7 @@ export const HeroSection = () => {
             </h1>
             <p className="mt-4 text-center text-white/60 md:text-[17px]">
               Hi I&apos;m Koosei Wibawa, a passionate Frontend Developer who has
-              completed my Bachelor&apos;s degree but not yet graduated
+              completed my Bachelor&apos;s degree.
             </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">

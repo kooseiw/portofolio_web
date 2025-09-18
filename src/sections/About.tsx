@@ -102,10 +102,9 @@ export const AboutSection = () => {
         <SectionHeader
           title="About Me"
           eyebrow="Get to know me"
-          description=" A recent graduate in Informatics from Atma Jaya University Yogyakarta, with a strong interest in becoming a frontend developer 
+          description=" A fresh graduate in Informatics from Atma Jaya University Yogyakarta, with a strong interest in becoming a frontend developer 
 specializing in both web and mobile application development. Experienced in designing simple web and mobile applications, and 
-equipped with solid leadership and teamwork skills gained through active involvement in campus organizations and committees. 
-Currently awaiting the official graduation ceremony."
+equipped with solid leadership and teamwork skills gained through active involvement in campus organizations and committees."
         />
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
