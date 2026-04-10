@@ -11,8 +11,9 @@ import TypeScriptIcon from "@/assets/icons/typescript.svg";
 import LaravelIcon from "@/assets/icons/laravel.svg";
 import FlutterIcon from "@/assets/icons/flutter.svg";
 import JavaScriptIcon from "@/assets/icons/square-js.svg";
-import mapImage from "@/assets/images/maps.png";
+import baliMapImage from "@/assets/images/bali-map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
+import Link from "next/link";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
@@ -164,19 +165,25 @@ equipped with solid leadership and teamwork skills gained through active involve
             </Card>
             <Card className="h-[320px] p-0 relative md:col-span-2 lg:col-span-1">
               <Image
-                src={mapImage}
+                src={baliMapImage}
                 alt="Map"
                 className="h-full w-full object-cover object-left-top"
               />
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 to-sky-500 -z-20 animate-ping [animation-duration:2s]"></div>
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 to-sky-500 -z-10"></div>
-                <Image
-                  src={smileMemoji}
-                  alt="Smile Memoji"
-                  className="size-20"
-                />
-              </div>
+              <Link
+                href="https://maps.app.goo.gl/Hox6BqkWviMiPurc6"
+                target="_blank"
+                className="group"
+              >
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full transition-transform duration-300 ease-out group-hover:scale-110 after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
+                  <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 to-sky-500 -z-20 animate-ping [animation-duration:2s]"></div>
+                  <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 to-sky-500 -z-10"></div>
+                  <Image
+                    src={smileMemoji}
+                    alt="Smile Memoji"
+                    className="size-20"
+                  />
+                </div>
+              </Link>
             </Card>
           </div>
         </div>
