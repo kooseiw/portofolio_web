@@ -4,11 +4,16 @@ import "./globals.css";
 import { twMerge } from "tailwind-merge";
 import { METADATA } from "@/common/constant/metadata";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
 const calistoga = Calistoga({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-serif",
+  display: "swap",
 });
 
 export const metadata: Metadata = METADATA;
