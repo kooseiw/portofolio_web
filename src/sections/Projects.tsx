@@ -92,7 +92,7 @@ export const ProjectsSection = () => {
               style={{
                 top: `calc(64px + ${projectIndex * 40}px)`,
               }}
-              className="px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-22 sticky"
+              className="px-8 pt-8 md:pt-12 md:px-10 lg:pt-12 lg:px-22 sticky"
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-12">
                 <div className="lg:pb-16">
@@ -105,7 +105,7 @@ export const ProjectsSection = () => {
                   <h3 className="font-serif text-2xl mt-2 md:mt-2 md:text-4xl">
                     {project.title}
                   </h3>
-                  <hr className="border-t-2 border-white/5 mt-4 md:mt-2" />
+                  <hr className="border-t-2 border-white/5 mt-4 md:mt-4" />
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
                     <li className="flex gap-2 text-sm md:text-base text-white/50 text-justify">
                       <span>{project.description}</span>
