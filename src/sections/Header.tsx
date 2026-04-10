@@ -45,7 +45,7 @@ export const Header = () => {
         </nav>
 
         <Link
-          href="/resume.pdf"
+          href="/Gede Koosei Wibawa CV.pdf"
           download="Gede Koosei Wibawa CV.pdf"
           className="absolute right-6 flex items-center gap-1.5 px-4 py-1.5 rounded-full border border-white/15 bg-white/10 backdrop-blur text-sm font-semibold text-white/70 hover:bg-white/20 hover:text-white transition duration-300"
         >
@@ -55,7 +55,7 @@ export const Header = () => {
       </div>
 
       <Link
-        href="/resume.pdf"
+        href="/Gede Koosei Wibawa CV.pdf"
         download="Gede Koosei Wibawa CV.pdf"
         className="md:hidden fixed top-3 left-4 z-30 flex items-center gap-1.5 h-10 px-3 rounded-full border border-white/15 bg-white/10 backdrop-blur text-sm font-semibold text-white/70 hover:bg-white/20 hover:text-white transition duration-300"
       >
